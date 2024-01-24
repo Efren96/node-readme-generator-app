@@ -22,13 +22,13 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   switch (license) {
     case "Apache":
-      return "[Apache](https://www.apache.org/licenses/LICENSE-2.0)";
+      return "[License](https://www.apache.org/licenses/LICENSE-2.0)";
     case "GNU":
-      return "[GNU](https://www.gnu.org/licenses/gpl-3.0.en.html)";
+      return "[License](https://www.gnu.org/licenses/gpl-3.0.en.html)";
     case "MIT":
-      return "[MIT](https://opensource.org/license/mit/)";
+      return "[License](https://opensource.org/license/mit/)";
     case "BSD":
-      return "[BSD](https://opensource.org/license/bsd-3-clause/)";
+      return "[License](https://opensource.org/license/bsd-3-clause/)";
     case "None":
       return "";
     default:
@@ -85,7 +85,7 @@ function generateMarkdown(data) {
   ## Questions
  [Email me](mailto:${data.email})
 
- [View my other projects on GitHub!](https://www.github.com/${data.username})
+ [GitHub Projects](https://www.github.com/${data.username})
 `;
 }
 
